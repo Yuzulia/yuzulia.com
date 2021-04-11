@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技術系 on Yuzulia</title><link>https://yuzulia.com/categories/%E6%8A%80%E8%A1%93%E7%B3%BB/</link><description>Recent content in 技術系 on Yuzulia</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 24 Dec 2020 15:00:45 +0000</lastBuildDate><atom:link href="https://yuzulia.com/categories/%E6%8A%80%E8%A1%93%E7%B3%BB/index.xml" rel="self" type="application/rss+xml"/><item><title>Misskeyは成長を続ける – GraphQL対応を目指して</title><link>https://yuzulia.com/article/mac2020-25@351/</link><pubDate>Thu, 24 Dec 2020 15:00:45 +0000</pubDate><guid>https://yuzulia.com/article/mac2020-25@351/</guid><description>この記事はMisskey Advent Calendar 202025日目の記事です。
+ゆずりょーです。メリークリスマス。
+今年もクリぼっちなのでこれでも置いておきます。
+・・・こっちよりうちの推しのアーティストの方がいいかな？ならこっち。
+・・・蛇足だったかもしれません（汗）
+さて、Misskey Advent Calendar 2020にご参加してくださった皆様、
+おかげさまで満員御礼となりましたことに熱く御礼申し上げます。
+自分がMisskeyに参入してからxyz時代を含めて2年となり、今年は10月から本格的にMisskeyに活動拠点を移す年にもなりました。
+今年はリアル事情も含めて本当に大変な年でした。今まで通りの生活に戻りた～い。
+それでは本題。今回はMisskeyの成長を促すべく、フォークを行いGraphQLに対応したMisskeyAPIを作っています。
+自分自身もGraphQLのことはそれほど知識が多くなく、実装するのにもまだ時間がかかります。
+これは初めてローカルのテストで動かしたGraphQLの画面です。
+これがMisskeyのシステムで初めて実装したクエリです。
+現在はmeta(インスタンス情報)の実装もできていますが、他の実装がまだできていません。
+（ユーザー認証絡み問題があるため）
+mutation（情報の書き込み）はまだ何も実装していないため何もできません。前述の通り認証問題があるので。
+最終的にはフロントエンドもGraphQL対応させるべきですが、フロントエンドはあまり強くないため、バックエンド優先でコードを書いていこうと思います。
+しゅいろちゃんもGraphQLの実装に関心を持っています。ですので、あらかた実装できたらいいなと思っています。
+GraphQLの実装はこれからも続ける予定です。課題点がいくつか見つかっているのでそれの解決を目指しながら実装を目指します。
+それでは、良きクリスマスと年末を。</description></item><item><title>GPG署名キーを変更致します</title><link>https://yuzulia.com/article/branding-new-gpg@234/</link><pubDate>Tue, 20 Oct 2020 07:13:03 +0000</pubDate><guid>https://yuzulia.com/article/branding-new-gpg@234/</guid><description>本日付けで、使用していたGPG鍵が期限切れとなりましたため、下記のとおりに変更致します。
+変更前
+AB876E2DB638FC57A6067C7858D61FACC8797522
+YuzuRyo61 yuzuryo61@yuzulia.com 変更後
+46B12D4E3E0E99E50D6C95A4103328BB561E2580
+YuzuRyo61 yuzuryo61@yuzulia.work その他
+Keybaseのキー証明書もご確認ください。
+https://keybase.io/yuzuryo61  P.S. GPG鍵の扱い方ってこれが正しいのだろうか・・・（Gitの署名のために使ってただけ）</description></item><item><title>YZ-LABOができるまで</title><link>https://yuzulia.com/article/how2make-yz-labo@86/</link><pubDate>Sun, 12 Jul 2020 09:21:21 +0000</pubDate><guid>https://yuzulia.com/article/how2make-yz-labo@86/</guid><description>&lt;p>ゆずりょーです。&lt;/p>
+&lt;p>YZ-LABOを開設してから早1か月近く経とうとしていますが、YZ-LABOができるまでの記録をこの記事にまとめてみようかな～と。&lt;/p></description></item><item><title>VSCodeをWindowsホストのSSH経由でリモート繋げたら問題が起きた件</title><link>https://yuzulia.com/article/vscode-ssh-remote@81/</link><pubDate>Fri, 10 Jul 2020 05:24:24 +0000</pubDate><guid>https://yuzulia.com/article/vscode-ssh-remote@81/</guid><description>ゆずりょーです。
+VSCodeを使ってSSH経由でリモート開発、便利ですよね。
+Windowsをホストとして、SSH経由でVSCodeのリモート開発をしようと思ったら大きな落とし穴。
+結論から言ってしまうと、ウイルス対策ソフトが悪さしていました。
+cmd.exeが不正変更したというログが出たので、例外許可にしたのですが、それでも問題が発生。
+リモート用のVSCodeパッケージのインストール中に文字化け（だと思う）が発生して接続に失敗してしまう問題がありました。
+常駐を切ってみたら問題なく動きました。これはどうなんだ・・・。
+でも結局はWindowsをSSH経由でVSCodeなんてあまりおすすめできないのであれなのですが、
+このようなケースがあったらウイルス対策ソフトに引っかかっているっていう可能性も視野に入れてみてくださいね。</description></item></channel></rss>

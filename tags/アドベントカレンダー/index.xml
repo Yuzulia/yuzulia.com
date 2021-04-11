@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>アドベントカレンダー on Yuzulia</title><link>https://yuzulia.com/tags/%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/</link><description>Recent content in アドベントカレンダー on Yuzulia</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 24 Dec 2020 15:00:45 +0000</lastBuildDate><atom:link href="https://yuzulia.com/tags/%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>Misskeyは成長を続ける – GraphQL対応を目指して</title><link>https://yuzulia.com/article/mac2020-25@351/</link><pubDate>Thu, 24 Dec 2020 15:00:45 +0000</pubDate><guid>https://yuzulia.com/article/mac2020-25@351/</guid><description>この記事はMisskey Advent Calendar 202025日目の記事です。
+ゆずりょーです。メリークリスマス。
+今年もクリぼっちなのでこれでも置いておきます。
+・・・こっちよりうちの推しのアーティストの方がいいかな？ならこっち。
+・・・蛇足だったかもしれません（汗）
+さて、Misskey Advent Calendar 2020にご参加してくださった皆様、
+おかげさまで満員御礼となりましたことに熱く御礼申し上げます。
+自分がMisskeyに参入してからxyz時代を含めて2年となり、今年は10月から本格的にMisskeyに活動拠点を移す年にもなりました。
+今年はリアル事情も含めて本当に大変な年でした。今まで通りの生活に戻りた～い。
+それでは本題。今回はMisskeyの成長を促すべく、フォークを行いGraphQLに対応したMisskeyAPIを作っています。
+自分自身もGraphQLのことはそれほど知識が多くなく、実装するのにもまだ時間がかかります。
+これは初めてローカルのテストで動かしたGraphQLの画面です。
+これがMisskeyのシステムで初めて実装したクエリです。
+現在はmeta(インスタンス情報)の実装もできていますが、他の実装がまだできていません。
+（ユーザー認証絡み問題があるため）
+mutation（情報の書き込み）はまだ何も実装していないため何もできません。前述の通り認証問題があるので。
+最終的にはフロントエンドもGraphQL対応させるべきですが、フロントエンドはあまり強くないため、バックエンド優先でコードを書いていこうと思います。
+しゅいろちゃんもGraphQLの実装に関心を持っています。ですので、あらかた実装できたらいいなと思っています。
+GraphQLの実装はこれからも続ける予定です。課題点がいくつか見つかっているのでそれの解決を目指しながら実装を目指します。
+それでは、良きクリスマスと年末を。</description></item></channel></rss>

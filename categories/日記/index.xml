@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日記 on Yuzulia</title><link>https://yuzulia.com/categories/%E6%97%A5%E8%A8%98/</link><description>Recent content in 日記 on Yuzulia</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Thu, 11 Feb 2021 01:50:57 +0000</lastBuildDate><atom:link href="https://yuzulia.com/categories/%E6%97%A5%E8%A8%98/index.xml" rel="self" type="application/rss+xml"/><item><title>審議不足でした。</title><link>https://yuzulia.com/article/lod-ta@573/</link><pubDate>Thu, 11 Feb 2021 01:50:57 +0000</pubDate><guid>https://yuzulia.com/article/lod-ta@573/</guid><description>ゆずりょーです。
+先日Twitterアカウントを開設した、とお伝えしましたが、残念ながらアカウントを撤退いたしました。
+自分での慎重な審議が足りず、問題に発展するリスクを検討せずに行っていたのが原因です。
+期待していた皆様には大変なご迷惑をおかけいたします。
+なお、これからはMisskeyで活動を続けていきますので、よろしくお願いいたします。
+ </description></item><item><title>Misskeyは成長を続ける – GraphQL対応を目指して</title><link>https://yuzulia.com/article/mac2020-25@351/</link><pubDate>Thu, 24 Dec 2020 15:00:45 +0000</pubDate><guid>https://yuzulia.com/article/mac2020-25@351/</guid><description>この記事はMisskey Advent Calendar 202025日目の記事です。
+ゆずりょーです。メリークリスマス。
+今年もクリぼっちなのでこれでも置いておきます。
+・・・こっちよりうちの推しのアーティストの方がいいかな？ならこっち。
+・・・蛇足だったかもしれません（汗）
+さて、Misskey Advent Calendar 2020にご参加してくださった皆様、
+おかげさまで満員御礼となりましたことに熱く御礼申し上げます。
+自分がMisskeyに参入してからxyz時代を含めて2年となり、今年は10月から本格的にMisskeyに活動拠点を移す年にもなりました。
+今年はリアル事情も含めて本当に大変な年でした。今まで通りの生活に戻りた～い。
+それでは本題。今回はMisskeyの成長を促すべく、フォークを行いGraphQLに対応したMisskeyAPIを作っています。
+自分自身もGraphQLのことはそれほど知識が多くなく、実装するのにもまだ時間がかかります。
+これは初めてローカルのテストで動かしたGraphQLの画面です。
+これがMisskeyのシステムで初めて実装したクエリです。
+現在はmeta(インスタンス情報)の実装もできていますが、他の実装がまだできていません。
+（ユーザー認証絡み問題があるため）
+mutation（情報の書き込み）はまだ何も実装していないため何もできません。前述の通り認証問題があるので。
+最終的にはフロントエンドもGraphQL対応させるべきですが、フロントエンドはあまり強くないため、バックエンド優先でコードを書いていこうと思います。
+しゅいろちゃんもGraphQLの実装に関心を持っています。ですので、あらかた実装できたらいいなと思っています。
+GraphQLの実装はこれからも続ける予定です。課題点がいくつか見つかっているのでそれの解決を目指しながら実装を目指します。
+それでは、良きクリスマスと年末を。</description></item><item><title>ちょっとした業務連絡</title><link>https://yuzulia.com/article/albc@451/</link><pubDate>Tue, 22 Dec 2020 06:08:49 +0000</pubDate><guid>https://yuzulia.com/article/albc@451/</guid><description>ゆずりょーです。
+12/26にメインマシンのフルメンテナンスのため、応答が鈍くなります。
+メインマシンのフルメンテナンスですが、Windowsの調子が微妙に良くないので、個人データを保持したまま初期化を行います。これには所要時間がかなりかかる見込みです。
+また中に溜まったホコリなどの掃除もしますので時間を要します。
+ですのでほぼ終日応答が難しいことにご了承ください。
+よろしくお願いします(｡_｡*)</description></item><item><title>Skyの世界からの究極の贈り物</title><link>https://yuzulia.com/article/ultimate-gift-from-sky@360/</link><pubDate>Sun, 06 Dec 2020 07:20:00 +0000</pubDate><guid>https://yuzulia.com/article/ultimate-gift-from-sky@360/</guid><description>&lt;p>ゆずりょーです。&lt;/p>
+&lt;p>やっと届きました。Skyの世界から、究極の贈り物が来ました。&lt;/p>
+&lt;p>1周年記念パックがついにお家にやってきました。&lt;/p></description></item><item><title>え？もう8月？</title><link>https://yuzulia.com/article/coming-august@94/</link><pubDate>Fri, 31 Jul 2020 13:19:07 +0000</pubDate><guid>https://yuzulia.com/article/coming-august@94/</guid><description>ゆずりょーです。
+なんだかんだで日々が過ぎていった頃。
+あれ、もう８月入っちゃうのか。７月終わりか～。
+なんてこった。あっという間に一月が過ぎてしまった。
+コロナ禍で日付感覚が狂ってしまってた。もう８月なのか。
+とは言っても８月に差し掛かろうとしてるのに去年の今の時期と比べると、ものすごく暑いとは思えん。
+セミは鳴いてるけど。
+８月も気が抜けませんね～～～。まぁ普段どおりに生活すると思いますが。</description></item><item><title>YZ-LABOができるまで</title><link>https://yuzulia.com/article/how2make-yz-labo@86/</link><pubDate>Sun, 12 Jul 2020 09:21:21 +0000</pubDate><guid>https://yuzulia.com/article/how2make-yz-labo@86/</guid><description>&lt;p>ゆずりょーです。&lt;/p>
+&lt;p>YZ-LABOを開設してから早1か月近く経とうとしていますが、YZ-LABOができるまでの記録をこの記事にまとめてみようかな～と。&lt;/p></description></item><item><title>VSCodeをWindowsホストのSSH経由でリモート繋げたら問題が起きた件</title><link>https://yuzulia.com/article/vscode-ssh-remote@81/</link><pubDate>Fri, 10 Jul 2020 05:24:24 +0000</pubDate><guid>https://yuzulia.com/article/vscode-ssh-remote@81/</guid><description>ゆずりょーです。
+VSCodeを使ってSSH経由でリモート開発、便利ですよね。
+Windowsをホストとして、SSH経由でVSCodeのリモート開発をしようと思ったら大きな落とし穴。
+結論から言ってしまうと、ウイルス対策ソフトが悪さしていました。
+cmd.exeが不正変更したというログが出たので、例外許可にしたのですが、それでも問題が発生。
+リモート用のVSCodeパッケージのインストール中に文字化け（だと思う）が発生して接続に失敗してしまう問題がありました。
+常駐を切ってみたら問題なく動きました。これはどうなんだ・・・。
+でも結局はWindowsをSSH経由でVSCodeなんてあまりおすすめできないのであれなのですが、
+このようなケースがあったらウイルス対策ソフトに引っかかっているっていう可能性も視野に入れてみてくださいね。</description></item><item><title>ハローワードプレス。</title><link>https://yuzulia.com/article/hello-wordpress@31/</link><pubDate>Mon, 29 Jun 2020 13:50:14 +0000</pubDate><guid>https://yuzulia.com/article/hello-wordpress@31/</guid><description>ゆずりょーです。
+WordPressの設置に結構時間食われました。
+でもなんとか構築が終わったので公開しちゃいます。
+やる気があればまたブログを更新します。
+P.S. nginxとphp-fpmってこんなに早かったんだ。感動した。チューニングしてるけど。</description></item></channel></rss>

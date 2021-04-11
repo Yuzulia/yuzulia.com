@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GPG on Yuzulia</title><link>https://yuzulia.com/tags/gpg/</link><description>Recent content in GPG on Yuzulia</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Tue, 20 Oct 2020 07:13:03 +0000</lastBuildDate><atom:link href="https://yuzulia.com/tags/gpg/index.xml" rel="self" type="application/rss+xml"/><item><title>GPG署名キーを変更致します</title><link>https://yuzulia.com/article/branding-new-gpg@234/</link><pubDate>Tue, 20 Oct 2020 07:13:03 +0000</pubDate><guid>https://yuzulia.com/article/branding-new-gpg@234/</guid><description>本日付けで、使用していたGPG鍵が期限切れとなりましたため、下記のとおりに変更致します。
+変更前
+AB876E2DB638FC57A6067C7858D61FACC8797522
+YuzuRyo61 yuzuryo61@yuzulia.com 変更後
+46B12D4E3E0E99E50D6C95A4103328BB561E2580
+YuzuRyo61 yuzuryo61@yuzulia.work その他
+Keybaseのキー証明書もご確認ください。
+https://keybase.io/yuzuryo61  P.S. GPG鍵の扱い方ってこれが正しいのだろうか・・・（Gitの署名のために使ってただけ）</description></item></channel></rss>

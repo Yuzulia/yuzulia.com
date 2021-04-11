@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VSCode on Yuzulia</title><link>https://yuzulia.com/tags/vscode/</link><description>Recent content in VSCode on Yuzulia</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 10 Jul 2020 05:24:24 +0000</lastBuildDate><atom:link href="https://yuzulia.com/tags/vscode/index.xml" rel="self" type="application/rss+xml"/><item><title>VSCodeをWindowsホストのSSH経由でリモート繋げたら問題が起きた件</title><link>https://yuzulia.com/article/vscode-ssh-remote@81/</link><pubDate>Fri, 10 Jul 2020 05:24:24 +0000</pubDate><guid>https://yuzulia.com/article/vscode-ssh-remote@81/</guid><description>ゆずりょーです。
+VSCodeを使ってSSH経由でリモート開発、便利ですよね。
+Windowsをホストとして、SSH経由でVSCodeのリモート開発をしようと思ったら大きな落とし穴。
+結論から言ってしまうと、ウイルス対策ソフトが悪さしていました。
+cmd.exeが不正変更したというログが出たので、例外許可にしたのですが、それでも問題が発生。
+リモート用のVSCodeパッケージのインストール中に文字化け（だと思う）が発生して接続に失敗してしまう問題がありました。
+常駐を切ってみたら問題なく動きました。これはどうなんだ・・・。
+でも結局はWindowsをSSH経由でVSCodeなんてあまりおすすめできないのであれなのですが、
+このようなケースがあったらウイルス対策ソフトに引っかかっているっていう可能性も視野に入れてみてくださいね。</description></item></channel></rss>

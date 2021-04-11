@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuzulia</title><link>https://yuzulia.com/</link><description>Recent content on Yuzulia</description><generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Sun, 11 Apr 2021 15:05:54 +0900</lastBuildDate><atom:link href="https://yuzulia.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugoに変えたっていうお話</title><link>https://yuzulia.com/post/2021-04-11-moved-hugo/</link><pubDate>Sun, 11 Apr 2021 15:05:54 +0900</pubDate><guid>https://yuzulia.com/post/2021-04-11-moved-hugo/</guid><description>ゆずりょーです。
+最近Yuzuliaメインサーバーの調子が悪く、全体的に動作がもっさりしているのもあって、
+メインサイトのWordpressの使用をやめて、静的サイトジェネレーターでブログを書いていくことにします。
+そもそもブログやってたんだっていう話になるけど。
+近いうちにサーバーのメンテナンスをしっかりやります。最近面倒で怠ってました。すみません。</description></item><item><title>審議不足でした。</title><link>https://yuzulia.com/article/lod-ta@573/</link><pubDate>Thu, 11 Feb 2021 01:50:57 +0000</pubDate><guid>https://yuzulia.com/article/lod-ta@573/</guid><description>ゆずりょーです。
+先日Twitterアカウントを開設した、とお伝えしましたが、残念ながらアカウントを撤退いたしました。
+自分での慎重な審議が足りず、問題に発展するリスクを検討せずに行っていたのが原因です。
+期待していた皆様には大変なご迷惑をおかけいたします。
+なお、これからはMisskeyで活動を続けていきますので、よろしくお願いいたします。
+ </description></item><item><title>Kyashアカウントを閉鎖いたしました</title><link>https://yuzulia.com/article/closed-kyash-account@557/</link><pubDate>Thu, 28 Jan 2021 06:06:28 +0000</pubDate><guid>https://yuzulia.com/article/closed-kyash-account@557/</guid><description>ゆずりょーです。
+本日2021年1月28日をもちまして、Kyashアカウント(yuzuryo61)を閉鎖いたしましたことを、ご報告いたします。
+そのため、今後Kyash経由でゆずりょーへの送金はサポートされなくなります。
+理由としましては、入金下限が高すぎることから、気軽に入金できる金額でないため、使用頻度がなくなってしまったことが主な理由です。
+Kyash経由での送金をご希望の皆様には大変なご迷惑をおかけいたしますが、何卒ご了承ください。</description></item><item><title>Misskeyは成長を続ける – GraphQL対応を目指して</title><link>https://yuzulia.com/article/mac2020-25@351/</link><pubDate>Thu, 24 Dec 2020 15:00:45 +0000</pubDate><guid>https://yuzulia.com/article/mac2020-25@351/</guid><description>この記事はMisskey Advent Calendar 202025日目の記事です。
+ゆずりょーです。メリークリスマス。
+今年もクリぼっちなのでこれでも置いておきます。
+・・・こっちよりうちの推しのアーティストの方がいいかな？ならこっち。
+・・・蛇足だったかもしれません（汗）
+さて、Misskey Advent Calendar 2020にご参加してくださった皆様、
+おかげさまで満員御礼となりましたことに熱く御礼申し上げます。
+自分がMisskeyに参入してからxyz時代を含めて2年となり、今年は10月から本格的にMisskeyに活動拠点を移す年にもなりました。
+今年はリアル事情も含めて本当に大変な年でした。今まで通りの生活に戻りた～い。
+それでは本題。今回はMisskeyの成長を促すべく、フォークを行いGraphQLに対応したMisskeyAPIを作っています。
+自分自身もGraphQLのことはそれほど知識が多くなく、実装するのにもまだ時間がかかります。
+これは初めてローカルのテストで動かしたGraphQLの画面です。
+これがMisskeyのシステムで初めて実装したクエリです。
+現在はmeta(インスタンス情報)の実装もできていますが、他の実装がまだできていません。
+（ユーザー認証絡み問題があるため）
+mutation（情報の書き込み）はまだ何も実装していないため何もできません。前述の通り認証問題があるので。
+最終的にはフロントエンドもGraphQL対応させるべきですが、フロントエンドはあまり強くないため、バックエンド優先でコードを書いていこうと思います。
+しゅいろちゃんもGraphQLの実装に関心を持っています。ですので、あらかた実装できたらいいなと思っています。
+GraphQLの実装はこれからも続ける予定です。課題点がいくつか見つかっているのでそれの解決を目指しながら実装を目指します。
+それでは、良きクリスマスと年末を。</description></item><item><title>ちょっとした業務連絡</title><link>https://yuzulia.com/article/albc@451/</link><pubDate>Tue, 22 Dec 2020 06:08:49 +0000</pubDate><guid>https://yuzulia.com/article/albc@451/</guid><description>ゆずりょーです。
+12/26にメインマシンのフルメンテナンスのため、応答が鈍くなります。
+メインマシンのフルメンテナンスですが、Windowsの調子が微妙に良くないので、個人データを保持したまま初期化を行います。これには所要時間がかなりかかる見込みです。
+また中に溜まったホコリなどの掃除もしますので時間を要します。
+ですのでほぼ終日応答が難しいことにご了承ください。
+よろしくお願いします(｡_｡*)</description></item><item><title>Skyの世界からの究極の贈り物</title><link>https://yuzulia.com/article/ultimate-gift-from-sky@360/</link><pubDate>Sun, 06 Dec 2020 07:20:00 +0000</pubDate><guid>https://yuzulia.com/article/ultimate-gift-from-sky@360/</guid><description>&lt;p>ゆずりょーです。&lt;/p>
+&lt;p>やっと届きました。Skyの世界から、究極の贈り物が来ました。&lt;/p>
+&lt;p>1周年記念パックがついにお家にやってきました。&lt;/p></description></item><item><title>GPG署名キーを変更致します</title><link>https://yuzulia.com/article/branding-new-gpg@234/</link><pubDate>Tue, 20 Oct 2020 07:13:03 +0000</pubDate><guid>https://yuzulia.com/article/branding-new-gpg@234/</guid><description>本日付けで、使用していたGPG鍵が期限切れとなりましたため、下記のとおりに変更致します。
+変更前
+AB876E2DB638FC57A6067C7858D61FACC8797522
+YuzuRyo61 yuzuryo61@yuzulia.com 変更後
+46B12D4E3E0E99E50D6C95A4103328BB561E2580
+YuzuRyo61 yuzuryo61@yuzulia.work その他
+Keybaseのキー証明書もご確認ください。
+https://keybase.io/yuzuryo61  P.S. GPG鍵の扱い方ってこれが正しいのだろうか・・・（Gitの署名のために使ってただけ）</description></item><item><title>best-friends.chatを脱退致します</title><link>https://yuzulia.com/article/leave-best-friends@141/</link><pubDate>Wed, 30 Sep 2020 12:00:26 +0000</pubDate><guid>https://yuzulia.com/article/leave-best-friends@141/</guid><description>&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;p>best-friends.chatに復帰ができるよう日々努力を行って参りましたが、精神面の回復が見込めず、復帰することが困難であると判断いたしました。&lt;br>
+誠に残念ではありますが、本日付けでbest-friends.chatの脱退をすることを決定いたしました。&lt;/p></description></item><item><title>Discordアカウントの運用方針の変更について</title><link>https://yuzulia.com/article/discord-new-policy@130/</link><pubDate>Sat, 12 Sep 2020 15:54:34 +0000</pubDate><guid>https://yuzulia.com/article/discord-new-policy@130/</guid><description>この度、Discordアカウント（Discordタグ：YuzuRyo61#0611）の運用方針を変更することにいたしました。以下の通りに変更いたします。
+Discordのフレンド申請をサーバーのメンバーのみに変更いたします 今までDiscordのフレンド申請をあらゆる方向からフレンド申請を受けるようにしていましたが、
+フレンドの申請をサーバーのメンバーのみに変更いたします。（変更済み）
+参加サーバーの見直し 現在Discordアカウントが参加している参加サーバーの見直しを行います。
+原則として、管理しているサーバー（YZ-LABOなど）や諸連絡で必要なサーバーを除き、ほぼ全てのサーバーから脱退する予定となっております。
+ボイスチャンネルの使用方針変更 ボイスチャンネルは原則として、YZ-LABO以外のサーバーでは発言を行わず、聞き取りのみの方針とさせていただきます。
+以上の方針変更により、関係者の皆様には大変ご不便をおかけいたしますが、ご理解とご協力をお願いたします。</description></item><item><title>今回の琴平ユウの障害に関しまして</title><link>https://yuzulia.com/article/incident-kotohirayu@114/</link><pubDate>Tue, 25 Aug 2020 22:51:19 +0000</pubDate><guid>https://yuzulia.com/article/incident-kotohirayu@114/</guid><description>今回の琴平ユウの障害により、best-friends.chatをはじめとした皆様に多大なるご迷惑をおかけしましたことを、深くお詫び申し上げます。
+当面の間、琴平ユウBotの運用およびウェブAPIの提供を停止致します。再開時期が決まり次第、こちらにてお知らせいたします。
+また、今回の障害により私の過失発言がありましたことを、重ねてお詫び申し上げます。
+この度は誠に大変申し訳ありませんでした。
+ つきましては、以下の通りにサービスを停止いたします。
+一時停止するサービス 琴平ユウ( https://best-friends.chat/@Yu) 琴平ユウウェブAPIサービス( https://yuchan-api.yuzulia.work/ ) 停止期間
+当面の間。 再開時期
+決まり次第お知らせいたします。</description></item><item><title>え？もう8月？</title><link>https://yuzulia.com/article/coming-august@94/</link><pubDate>Fri, 31 Jul 2020 13:19:07 +0000</pubDate><guid>https://yuzulia.com/article/coming-august@94/</guid><description>ゆずりょーです。
+なんだかんだで日々が過ぎていった頃。
+あれ、もう８月入っちゃうのか。７月終わりか～。
+なんてこった。あっという間に一月が過ぎてしまった。
+コロナ禍で日付感覚が狂ってしまってた。もう８月なのか。
+とは言っても８月に差し掛かろうとしてるのに去年の今の時期と比べると、ものすごく暑いとは思えん。
+セミは鳴いてるけど。
+８月も気が抜けませんね～～～。まぁ普段どおりに生活すると思いますが。</description></item><item><title>YZ-LABOができるまで</title><link>https://yuzulia.com/article/how2make-yz-labo@86/</link><pubDate>Sun, 12 Jul 2020 09:21:21 +0000</pubDate><guid>https://yuzulia.com/article/how2make-yz-labo@86/</guid><description>&lt;p>ゆずりょーです。&lt;/p>
+&lt;p>YZ-LABOを開設してから早1か月近く経とうとしていますが、YZ-LABOができるまでの記録をこの記事にまとめてみようかな～と。&lt;/p></description></item><item><title>VSCodeをWindowsホストのSSH経由でリモート繋げたら問題が起きた件</title><link>https://yuzulia.com/article/vscode-ssh-remote@81/</link><pubDate>Fri, 10 Jul 2020 05:24:24 +0000</pubDate><guid>https://yuzulia.com/article/vscode-ssh-remote@81/</guid><description>ゆずりょーです。
+VSCodeを使ってSSH経由でリモート開発、便利ですよね。
+Windowsをホストとして、SSH経由でVSCodeのリモート開発をしようと思ったら大きな落とし穴。
+結論から言ってしまうと、ウイルス対策ソフトが悪さしていました。
+cmd.exeが不正変更したというログが出たので、例外許可にしたのですが、それでも問題が発生。
+リモート用のVSCodeパッケージのインストール中に文字化け（だと思う）が発生して接続に失敗してしまう問題がありました。
+常駐を切ってみたら問題なく動きました。これはどうなんだ・・・。
+でも結局はWindowsをSSH経由でVSCodeなんてあまりおすすめできないのであれなのですが、
+このようなケースがあったらウイルス対策ソフトに引っかかっているっていう可能性も視野に入れてみてくださいね。</description></item><item><title>ハローワードプレス。</title><link>https://yuzulia.com/article/hello-wordpress@31/</link><pubDate>Mon, 29 Jun 2020 13:50:14 +0000</pubDate><guid>https://yuzulia.com/article/hello-wordpress@31/</guid><description>ゆずりょーです。
+WordPressの設置に結構時間食われました。
+でもなんとか構築が終わったので公開しちゃいます。
+やる気があればまたブログを更新します。
+P.S. nginxとphp-fpmってこんなに早かったんだ。感動した。チューニングしてるけど。</description></item></channel></rss>
